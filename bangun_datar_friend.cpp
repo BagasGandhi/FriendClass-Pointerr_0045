@@ -55,3 +55,10 @@ float LayangLayang::keliling()
 {
     return 2 * (sisiPendek + sisiPanjang);
 }
+
+void LayangLayang::output()
+{
+    cout << "\n=== Output Layang-Layang ===" << endl;
+    cout << "Luas     : " << luas() << endl;
+    cout << "Keliling : " << keliling() << endl;
+}
