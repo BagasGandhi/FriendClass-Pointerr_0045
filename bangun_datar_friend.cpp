@@ -73,3 +73,8 @@ void BelahKetupat::input()
     cout << "Masukkan sisi: ";
     cin >> sisi;
 }
+
+float BelahKetupat::luas()
+{
+    return 0.5 * diagonal1 * diagonal2;
+}
