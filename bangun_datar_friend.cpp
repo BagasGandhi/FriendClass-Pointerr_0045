@@ -32,3 +32,8 @@ public:
 
     float kelilingLayangLayang(LayangLayang &x);
 };
+
+void LayangLayang::input()
+{
+    
+}
