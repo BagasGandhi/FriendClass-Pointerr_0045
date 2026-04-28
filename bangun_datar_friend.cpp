@@ -35,5 +35,13 @@ public:
 
 void LayangLayang::input()
 {
-    
+    cout << "=== Input Layang-Layang ===" << endl;
+    cout << "Masukkan diagonal 1: ";
+    cin >> diagonal1;
+    cout << "Masukkan diagonal 2: ";
+    cin >> diagonal2;
+    cout << "Masukkan sisi pendek: ";
+    cin >> sisiPendek;
+    cout << "Masukkan sisi panjang: ";
+    cin >> sisiPanjang;    
 }
