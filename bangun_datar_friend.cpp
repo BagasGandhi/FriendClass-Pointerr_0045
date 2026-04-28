@@ -29,4 +29,6 @@ public:
     float luas();
     float keliling();
     void output();
+
+    float kelilingLayangLayang(LayangLayang &x);
 };
