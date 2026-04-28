@@ -45,3 +45,8 @@ void LayangLayang::input()
     cout << "Masukkan sisi panjang: ";
     cin >> sisiPanjang;    
 }
+
+float LayangLayang::luas()
+{
+    return 0.5 * diagonal1 * diagonal2;
+}
