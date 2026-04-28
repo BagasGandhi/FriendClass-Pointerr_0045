@@ -15,7 +15,7 @@ public:
     float keliling();
     void output();   
     
-    friend float BelahKetupat::kelilingLayangLayang(LayangLayang &x);
+    friend class BelahKetupat;
 };
 
 class BelahKetupat
@@ -89,4 +89,27 @@ void BelahKetupat::output()
     cout << "\n=== Output Belah Ketupat ===" << endl;
     cout << "Luas     : " << luas() << endl;
     cout << "Keliling : " << keliling() << endl;
+}
+
+float BelahKetupat::kelilingLayangLayang(LayangLayang &x)
+{
+    return x.keliling();
+}
+
+int main()
+{
+    LayangLayang layang;
+    BelahKetupat ketupat;
+
+    layang.input();
+    ketupat.input();
+
+    layang.output();
+    ketupat.output();
+
+    cout << "\n=== Friend Method ===" << endl;
+    cout << "Keliling Layang-Layang dari class BelahKetupat: "
+         << ketupat.kelilingLayangLayang(layang) << endl;
+
+    return 0;
 }
