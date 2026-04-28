@@ -5,7 +5,13 @@ class BelahKetupat;
 
 class LayangLayang
 {
-    private:
+private:
     float diagonal1, diagonal2;
     float sisiPendek, sisiPanjang;
+
+public:
+    void input();
+    float luas();
+    float keliling();
+    void output();    
 };
