@@ -13,5 +13,14 @@ public:
     void input();
     float luas();
     float keliling();
-    void output();    
+    void output();   
+    
+    friend float BelahKetupat::kelilingLayangLayang(LayangLayang &x);
+};
+
+class BelahKetupat
+{
+private:
+    float diagonal1, diagonal2;
+    float sisi;   
 };
