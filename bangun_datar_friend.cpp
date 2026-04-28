@@ -62,3 +62,14 @@ void LayangLayang::output()
     cout << "Luas     : " << luas() << endl;
     cout << "Keliling : " << keliling() << endl;
 }
+
+void BelahKetupat::input()
+{
+    cout << "\n=== Input Belah Ketupat ===" << endl;
+    cout << "Masukkan diagonal 1: ";
+    cin >> diagonal1;
+    cout << "Masukkan diagonal 2: ";
+    cin >> diagonal2;
+    cout << "Masukkan sisi: ";
+    cin >> sisi;
+}
