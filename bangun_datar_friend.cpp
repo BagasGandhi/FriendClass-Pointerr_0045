@@ -22,5 +22,11 @@ class BelahKetupat
 {
 private:
     float diagonal1, diagonal2;
-    float sisi;   
+    float sisi;  
+    
+public:
+    void input();
+    float luas();
+    float keliling();
+    void output();
 };
