@@ -50,3 +50,8 @@ float LayangLayang::luas()
 {
     return 0.5 * diagonal1 * diagonal2;
 }
+
+float LayangLayang::keliling()
+{
+    return 2 * (sisiPendek + sisiPanjang);
+}
